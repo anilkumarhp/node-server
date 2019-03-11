@@ -1,12 +1,18 @@
 {
-  "name": "simpleserver",
+  "name": "node_crash_course",
   "version": "1.0.0",
-  "description": "a simple server",
+  "description": "A node crash course",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server",
+    "dev": "nodemon server"
   },
-  "author": "Anil kumar H P",
-  "license": "ISC"
+  "author": "Anil Kumar H P",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
